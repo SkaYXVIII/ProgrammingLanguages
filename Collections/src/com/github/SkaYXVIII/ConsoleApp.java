@@ -5,7 +5,7 @@ import java.util.*;
 public class ConsoleApp{
 
     private final static String COLLECTION_MENU =
-            "Wybierz typ kolekcji: \n" +
+            "\n Wybierz typ kolekcji: \n" +
             " - Set: \n" +
             "   1 - HashSet \n" +
             "   2 - TreeSet \n" +
@@ -19,7 +19,7 @@ public class ConsoleApp{
                   ;
 
     private final static String OPERATIONS_MENU =
-            "Wybierz operację: \n" +
+            "\n Wybierz operację: \n" +
             "1 - Dodaj kilka tych samych obiektów z nadpisananymi metodami hashCode i equals \n" +
             "2 - Dodaj kilka różnych obiektów z nadpisananymi metodami hashCode i equals \n" +
             "3 - Dodaj kilka tych samych obiektów z domyślnymi metodami hashCode i equals \n" +
