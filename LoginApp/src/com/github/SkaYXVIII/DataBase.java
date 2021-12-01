@@ -11,10 +11,6 @@ public class DataBase {
         if (isHardCoded) fillDataBase();
     }
 
-    public HashMap<String, String> getUsers() {
-        return users;
-    }
-
     public boolean checkUser(String username, char[] password){
         if (username == null || password == null) return false;
 
